@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kuka_kr6r900_2">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import kuka_kr6r900_2 urdf file -->
+    <xacro:include filename="$(find kuka_kr6_support)/urdf/kr6r900_2.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="kuka_kr6r900_2.ros2_control.xacro" />
+
+
+    <xacro:kuka_kr6r900_2_ros2_control name="kuka_kr6_kvp_hw_interface" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

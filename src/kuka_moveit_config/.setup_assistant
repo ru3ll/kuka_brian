@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: kuka_kr6_support
+    relative_path: urdf/kr6r900_2.xacro
+  srdf:
+    relative_path: config/kuka_kr6r900_2.srdf
+  package_settings:
+    author_name: ru3ll
+    author_email: brian.macharia.wambui@gmail.com
+    generated_timestamp: 1733480918
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

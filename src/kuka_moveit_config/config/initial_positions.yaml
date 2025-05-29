@@ -1,0 +1,9 @@
+# Default initial positions for kuka_kr6r900_2's ros2_control fake system
+
+initial_positions:
+  joint_a1: 0
+  joint_a2: -1.570796326795
+  joint_a3: 1.570796326795
+  joint_a4: 0
+  joint_a5: 0
+  joint_a6: 3.14159265358979

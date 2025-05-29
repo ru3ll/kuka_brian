@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>kuka_resources</name>
+  <version>0.2.0</version>
+  <description>
+    <p>
+      Shared resources for KUKA manipulators.
+    </p>
+    <p>
+      This package, originally created by G.A. vd. Hoorn (TU Delft Robotics Institute),initially contained common urdf / xacro resources used by KUKA robot
+      support packages within the ROS-Industrial program.
+    </p>
+    <p>
+      It has since been modified by the maintainer, Lenny Ng'ang'a, to support ROS2.
+    </p>
+  </description>
+
+  <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>
+  <maintainer email="codewithlennylen254@gmail.com">Lenny Ng'ang'a</maintainer>
+  <license>Apache2</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
