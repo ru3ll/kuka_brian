@@ -2,6 +2,6 @@
   <class name="kuka_kr6_kvp_hw_interface/KukaKR6System"
          type="kuka_kr6_kvp_hw_interface::KukaKR6System"
          base_class_type="hardware_interface::SystemInterface">
-    <description>KUKA KR6 hardware interface using KUKAVARPROXY</description>
+    <description>KUKA KR6 hardware interface using KUKAVARPROXY KVP</description>
   </class>
 </library>
